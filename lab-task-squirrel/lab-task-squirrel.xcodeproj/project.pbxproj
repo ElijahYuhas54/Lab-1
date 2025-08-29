@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B89122642E624E3C001C8D1E /* READEME.md in Resources */ = {isa = PBXBuildFile; fileRef = B89122632E624E34001C8D1E /* READEME.md */; };
 		CB57503A2929E62C00890962 /* TaskAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5750392929E62C00890962 /* TaskAnnotationView.swift */; };
 		CB602B9929247359006C6727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB602B9829247359006C6727 /* AppDelegate.swift */; };
 		CB602B9B29247359006C6727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB602B9A29247359006C6727 /* SceneDelegate.swift */; };
@@ -22,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B89122632E624E34001C8D1E /* READEME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "READE\bME.md"; sourceTree = "<group>"; };
+		B89122692E6252B1001C8D1E /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		CB5750392929E62C00890962 /* TaskAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAnnotationView.swift; sourceTree = "<group>"; };
 		CB602B9529247359006C6727 /* lab-task-squirrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-task-squirrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB602B9829247359006C6727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		CB602B8C29247359006C6727 = {
 			isa = PBXGroup;
 			children = (
+				B89122692E6252B1001C8D1E /* README.MD */,
 				CB602B9729247359006C6727 /* lab-task-squirrel */,
 				CB602B9629247359006C6727 /* Products */,
 			);
@@ -68,7 +68,6 @@
 		CB602B9729247359006C6727 /* lab-task-squirrel */ = {
 			isa = PBXGroup;
 			children = (
-				B89122632E624E34001C8D1E /* READEME.md */,
 				CB602B9829247359006C6727 /* AppDelegate.swift */,
 				CB602B9A29247359006C6727 /* SceneDelegate.swift */,
 				CB602BAE29247700006C6727 /* Task List */,
@@ -176,7 +175,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB602BA52924735C006C6727 /* LaunchScreen.storyboard in Resources */,
-				B89122642E624E3C001C8D1E /* READEME.md in Resources */,
 				CB602BA22924735C006C6727 /* Assets.xcassets in Resources */,
 				CB602BA029247359006C6727 /* Main.storyboard in Resources */,
 			);
