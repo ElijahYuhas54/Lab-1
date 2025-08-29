@@ -124,6 +124,10 @@ class TaskDetailViewController: UIViewController {
         let region = MKCoordinateRegion(center: coordinate, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
         mapView.setRegion(region, animated: true)
         // TODO: Add annotation to map view
+        // Add an annotation to the map view based on image location.
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = coordinate
+        mapView.addAnnotation(annotation)
     }
 }
 
