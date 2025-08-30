@@ -45,4 +45,4 @@ Include a GIF below that demonstrates the full app flow:
 <video width="75%" controls>
   DemoVideo.mp4
   Your browser does not support the video tag.
-</vide
+</video>
