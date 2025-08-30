@@ -18,7 +18,8 @@ class TaskDetailViewController: UIViewController {
     @IBOutlet private weak var titleLabel: UILabel!
     @IBOutlet private weak var descriptionLabel: UILabel!
     @IBOutlet private weak var attachPhotoButton: UIButton!
-
+    @IBOutlet weak var viewPhotoButton: UIButton!
+    
     // MapView outlet
     @IBOutlet private weak var mapView: MKMapView!
 
@@ -41,6 +42,16 @@ class TaskDetailViewController: UIViewController {
         updateMapView()
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // Segue to Detail View Controller
+        if segue.identifier == "PhotoSegue" {
+            if let photoViewController = segue.destination as? PhotoViewController {
+                photoViewController.task = task
+            }
+        }
+    }
+    
     /// Configure UI for the given task
     private func updateUI() {
         titleLabel.text = task.title
@@ -58,8 +69,10 @@ class TaskDetailViewController: UIViewController {
 
         mapView.isHidden = !task.isComplete
         attachPhotoButton.isHidden = task.isComplete
+        viewPhotoButton.isHidden = !task.isComplete
     }
-
+    
+    
     @IBAction func didTapAttachPhotoButton(_ sender: Any) {
         // TODO: Check and/or request photo library access authorization.
         // If authorized, show photo picker, otherwise request authorization.

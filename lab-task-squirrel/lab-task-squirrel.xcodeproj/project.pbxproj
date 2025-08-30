@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B83265862E62809700A6E7B3 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83265852E62808E00A6E7B3 /* PhotoViewController.swift */; };
 		CB57503A2929E62C00890962 /* TaskAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5750392929E62C00890962 /* TaskAnnotationView.swift */; };
 		CB602B9929247359006C6727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB602B9829247359006C6727 /* AppDelegate.swift */; };
 		CB602B9B29247359006C6727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB602B9A29247359006C6727 /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B83265852E62808E00A6E7B3 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		B89122692E6252B1001C8D1E /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		CB5750392929E62C00890962 /* TaskAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAnnotationView.swift; sourceTree = "<group>"; };
 		CB602B9529247359006C6727 /* lab-task-squirrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-task-squirrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 		CB9D9ED5292488BC00F8F51B /* Task Detail */ = {
 			isa = PBXGroup;
 			children = (
+				B83265852E62808E00A6E7B3 /* PhotoViewController.swift */,
 				CB9D9ED3292488B000F8F51B /* TaskDetailViewController.swift */,
 				CB5750392929E62C00890962 /* TaskAnnotationView.swift */,
 			);
@@ -190,6 +193,7 @@
 				CB9D9ED4292488B000F8F51B /* TaskDetailViewController.swift in Sources */,
 				CB602BAD292476F4006C6727 /* TaskCell.swift in Sources */,
 				CB602B9D29247359006C6727 /* TaskListViewController.swift in Sources */,
+				B83265862E62809700A6E7B3 /* PhotoViewController.swift in Sources */,
 				CB9D9EDA292489E000F8F51B /* TaskComposeViewController.swift in Sources */,
 				CB57503A2929E62C00890962 /* TaskAnnotationView.swift in Sources */,
 				CB602B9929247359006C6727 /* AppDelegate.swift in Sources */,
