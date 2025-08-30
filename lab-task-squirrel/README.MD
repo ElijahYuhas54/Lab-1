@@ -41,5 +41,4 @@ Include a GIF below that demonstrates the full app flow:
 - Viewing the map with annotation
 - Navigating to the photo viewer screen
 
-```markdown
-! Lab 1: Squirrel
+!Lab 1: Squirrel
