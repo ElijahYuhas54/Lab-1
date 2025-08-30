@@ -42,7 +42,4 @@ Include a GIF below that demonstrates the full app flow:
 - Navigating to the photo viewer screen
 
 ```markdown
-<video width="75%" controls>
-  DemoVideo.mp4
-  Your browser does not support the video tag.
-</video>
+! Lab 1: Squirrel
