@@ -41,4 +41,4 @@ Include a GIF below that demonstrates the full app flow:
 - Viewing the map with annotation
 - Navigating to the photo viewer screen
 
-![Task Squirrels Demo](lab-task-squirrel/DemoGIF.gif)
+![Task Squirrels Demo](./lab-task-squirrel/DemoGIF.gif)
